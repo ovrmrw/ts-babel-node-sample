@@ -4,7 +4,8 @@
     "moduleResolution": "node",
     "noImplicitAny": false,
     "sourceMap": false,
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "strictNullChecks": true
   },
   "exclude": [
     "node_modules"

@@ -1,6 +1,8 @@
 import 'babel-polyfill';
 import lodash from 'lodash';
 
+////////////////////////////////////////////////////////
+/* async/await */
 
 console.log(1);
 
@@ -9,7 +11,7 @@ console.log(1);
   console.log(2);
 
   await new Promise(resolve => {
-    setTimeout(() => {      
+    setTimeout(() => {
       console.log(4);
       resolve();
     }, 2000);
@@ -20,3 +22,10 @@ console.log(1);
 })();
 
 console.log(3);
+
+
+////////////////////////////////////////////////////////
+/* strictNullChecks */
+
+// const num: number = null; // Invalid, due to "strictNullChecks".
+const numNullable: number | null = null; // Valid.
