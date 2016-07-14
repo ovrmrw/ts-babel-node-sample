@@ -8,10 +8,11 @@ A sample code using ts-babel-node to run TypeScript files(.ts) **without pre-com
 ### Setup
 ```
 $ npm install
-$ npm run typings
 ```
 
 ### Run
 ```
 $ npm start
+or
+$ npm run alt
 ```
