@@ -25,7 +25,18 @@ console.log(3);
 
 
 ////////////////////////////////////////////////////////
-/* strictNullChecks */
+/* strictNullChecks, noUnusedLocals */
 
 // const num: number = null; // Invalid, due to "strictNullChecks".
 const numNullable: number | null = null; // Valid.
+
+const asyncFunc = async () => {
+  await new Promise(resolve => {
+    setTimeout(() => {
+      console.log(numNullable);
+      resolve();
+    }, 2000);
+  });
+};
+
+asyncFunc(); // comment-out this line will cause of TypeError due to "noUnusedLocals".
