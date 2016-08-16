@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "postinstall": "node lib/overwrite-modules.js",
-    "start": "node --require ts-babel-node/register server.ts",
-    "alt": "ts-babel-node server.ts",
+    "start": "ts-babel-node --ignoreWarnings 2304 server.ts",
+    "alt": "node --require ts-babel-node/register server.ts",    
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
