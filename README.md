@@ -10,9 +10,14 @@ A sample code using ts-babel-node to run TypeScript files(.ts) **without pre-com
 $ npm install
 ```
 
-### Run
+### Run (ts files directly)
+```
+$ npm run ts
+or
+$ npm run ts:alt
+```
+
+### Run (js files after build)
 ```
 $ npm start
-or
-$ npm run alt
 ```
