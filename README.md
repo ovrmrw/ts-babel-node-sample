@@ -1,9 +1,13 @@
 # ts-babel-node-sample
-a sample code for ts-babel-node
 
 ---
 
-A sample code using ts-babel-node to run TypeScript files(.ts) **without pre-compile**. (async/await is also enabled!) 
+A sample code in order to run TypeScript files(.ts) **without pre-compile**. (async/await is also enabled!) 
+
+||Compilers|
+|:--|:--|
+|typescript|2.0.2|
+|babel-preset-latest|6.14.0|
 
 ||My Environments|
 |:--|:--|
