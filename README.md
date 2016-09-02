@@ -7,7 +7,7 @@ A sample code in order to run TypeScript(.ts) files **without pre-compile**. (as
 ### What do this do internally?
 .ts -> [tsc target:es2015] -> .js(es2015) -> [babel presets:latest] -> .js(es5) -> Run on the fly!
 
-||Compilers|
+|Compiler|version|
 |:--|:--|
 |typescript|2.0.2|
 |babel-preset-latest|6.14.0|
