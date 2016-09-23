@@ -20,18 +20,18 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@types/lodash": "0.0.26-alpha",
-    "@types/node": "^4.0.28-alpha",
+    "@types/lodash": "^4.14.36",
+    "@types/node": "^6.0.40",
     "babel-cli": "^6.14.0",
     "babel-preset-latest": "^6.14.0",
     "concurrently": "^2.2.0",
     "fs-extra": "^0.30.0",
-    "ts-babel-node": "^1.0.0",
-    "ts-node": "^0.9.3",
-    "typescript": "^2.0.2"
+    "ts-babel-node": "1.0.0",
+    "ts-node": "0.9.3",
+    "typescript": "^2.0.3"
   },
   "dependencies": {
     "babel-polyfill": "^6.9.1",
-    "lodash": "^4.13.1"
+    "lodash": "^4.16.1"
   }
 }
