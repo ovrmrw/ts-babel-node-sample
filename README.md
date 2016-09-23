@@ -9,7 +9,7 @@ A sample code in order to run TypeScript(.ts) files **without pre-compile**. (as
 
 |Compiler|version|
 |:--|:--|
-|typescript|2.0.2|
+|typescript|2.0.3|
 |babel-preset-latest|6.14.0|
 
 ||My Environments|
