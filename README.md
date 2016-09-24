@@ -4,7 +4,7 @@
 
 A sample code in order to run TypeScript(.ts) files **without pre-compile**. (async/await is also enabled!)
 
-### What do this do internally?
+### What does this do internally?
 .ts -> [tsc target:es2015] -> .js(es2015) -> [babel presets:latest] -> .js(es5) -> Run on the fly!
 
 |Compiler|version|
